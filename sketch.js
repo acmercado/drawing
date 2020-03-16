@@ -27,6 +27,7 @@ function keyTyped(){
   if (key === 's'){
     // save image
     saveCanvas('fileName', 'png');
+
   } else if (key === 'd') {
     // display image
     background(220);
@@ -36,13 +37,15 @@ function keyTyped(){
       // line(array[i][0], array[i][1], array[i + 1][0], array[i + 1][1]);
       curveVertex(array[i][0], array[i][1]);
     }
-
     endShape();
 
-    // line(array[0][0], array[0][1], array[1][0], array[1][1]);
-    // line(array[1][0], array[1][1], array[2][0], array[2][1]);
-    // ^ same as the "for" loop
+      // line(array[0][0], array[0][1], array[1][0], array[1][1]);
+      // line(array[1][0], array[1][1], array[2][0], array[2][1]);
+      // ^ same as the "for" loop
 
+  } else if (key === 'e') {
+    // erase image
+    background(220);
   }
 
   return false;

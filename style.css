@@ -3,5 +3,21 @@ html, body {
   padding: 0;
 }
 canvas {
+  margin: 0 auto;
   display: block;
+}
+
+h1 {
+  font-family: 'Bebas Neue';
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Aargh';
+  text-align: center;
+}
+
+p {
+  font-family: 'Datalegreya';
+  text-align: center;
 }
